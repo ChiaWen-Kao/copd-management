@@ -1,0 +1,28 @@
+.custom-theme .MuiGrid-container {
+  display: flex;
+  width: 100%;
+}
+
+.custom-theme .MuiFormGroup-root {
+  display: flex;
+  flex-direction: row;
+}
+
+.custom-theme .MuiBox-root {
+  margin-bottom: 20px;
+}
+
+.custom-theme .css-9dyl2p-MuiTypography-root {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.custom-theme .btn-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+}
+
+.custom-theme .css-19r6kue-MuiContainer-root {
+  margin-left: 0;
+}

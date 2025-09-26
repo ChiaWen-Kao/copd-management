@@ -1,0 +1,2958 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T14:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 84.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T14:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 43.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T14:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 97.48,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T15:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 81.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T15:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 82.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T15:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 96.26,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T16:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 76.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T16:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 96.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T16:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 96.33,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T17:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 87.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T17:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 63.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T17:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 97.48,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T18:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 80.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T18:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 44.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T18:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 98.86,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T19:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 131.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T19:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 453.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T19:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 96.2,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T20:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 75.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T20:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 67.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T20:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 97.01,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T21:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 124.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T21:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 372.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T21:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 94.57,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T22:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 68.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T22:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 0.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T22:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 96.41,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T23:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 65.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T23:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 0.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-10T23:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 96.87,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T00:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 61.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T00:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 0.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T00:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 96.83,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T01:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 72.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T01:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 0.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T01:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 97.22,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T02:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 71.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T02:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 0.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T02:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 96.3,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T03:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 63.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T03:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 0.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T03:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 96.39,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T04:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 71.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T04:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 0.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T04:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 96.71,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T05:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 65.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T05:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 0.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T05:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 98.12,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T06:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 128.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T06:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 530.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T06:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 94.46,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T07:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 118.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T07:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 598.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T07:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 95.94,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T08:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 74.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T08:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 55.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T08:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 98.96,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T09:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 86.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T09:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 69.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T09:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 96.27,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T10:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 76.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T10:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 43.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T10:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 96.65,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T11:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 86.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T11:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 61.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T11:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 97.6,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T12:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 81.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T12:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 59.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T12:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 96.32,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        }
+      ],
+      "text": "Heart rate"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T13:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 75.0,
+      "unit": "beats/minute",
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "activity",
+            "display": "Physical activity"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "41950-7",
+          "display": "Number of steps in 24 hour Measured"
+        }
+      ],
+      "text": "Number of steps"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T13:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 68.0,
+      "unit": "steps",
+      "system": "http://unitsofmeasure.org",
+      "code": "steps"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+},
+{
+  "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vital-signs",
+            "display": "Vital Signs"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "59408-5",
+          "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        }
+      ],
+      "text": "Oxygen saturation"
+    },
+    "subject": {
+      "reference": "Patient/copd-pat-5"
+    },
+    "effectiveDateTime": "2024-10-11T13:05:38.474717+00:00",
+    "valueQuantity": {
+      "value": 98.66,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "Observation"
+  }
+}
+  ]
+}

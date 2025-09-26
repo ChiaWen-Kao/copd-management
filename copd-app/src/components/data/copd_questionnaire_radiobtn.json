@@ -1,0 +1,209 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "copd-assessment-test",
+  "title": "COPD Self-Assessment Test",
+  "status": "active",
+  "subjectType": ["Patient"],
+  "item": [
+    {
+      "linkId": "q1-cough",
+      "text": "How often do you cough?",
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button"
+              }
+            ]
+          }
+        }
+      ],
+      "answerOption": [
+        { "valueCoding": { "code": "0", "display": "Never" } },
+        { "valueCoding": { "code": "1", "display": "Rarely" } },
+        { "valueCoding": { "code": "2", "display": "Sometimes" } },
+        { "valueCoding": { "code": "3", "display": "Frequently" } },
+        { "valueCoding": { "code": "4", "display": "All the time" } }
+      ]
+    },
+    {
+      "linkId": "q2-mucus",
+      "text": "How much phlegm (mucus) do you have in your chest?",
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button"
+              }
+            ]
+          }
+        }
+      ],
+      "answerOption": [
+        { "valueCoding": { "code": "0", "display": "None" } },
+        { "valueCoding": { "code": "1", "display": "A little" } },
+        { "valueCoding": { "code": "2", "display": "Some" } },
+        { "valueCoding": { "code": "3", "display": "Fair amount" } },
+        { "valueCoding": { "code": "4", "display": "A lot" } }
+      ]
+    },
+    {
+      "linkId": "q3-tightness",
+      "text": "Do you feel tightness in your chest?",
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button"
+              }
+            ]
+          }
+        }
+      ],
+      "answerOption": [
+        { "valueCoding": { "code": "0", "display": "Never" } },
+        { "valueCoding": { "code": "1", "display": "Rarely" } },
+        { "valueCoding": { "code": "2", "display": "Sometimes" } },
+        { "valueCoding": { "code": "3", "display": "Frequently" } },
+        { "valueCoding": { "code": "4", "display": "All the time" } }
+      ]
+    },
+    {
+      "linkId": "q4-breath",
+      "text": "How breathless do you feel when you go up a hill or one flight of stairs?",
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button"
+              }
+            ]
+          }
+        }
+      ],
+      "answerOption": [
+        { "valueCoding": { "code": "0", "display": "Never" } },
+        { "valueCoding": { "code": "1", "display": "Rarely" } },
+        { "valueCoding": { "code": "2", "display": "Sometimes" } },
+        { "valueCoding": { "code": "3", "display": "Frequently" } },
+        { "valueCoding": { "code": "4", "display": "All the time" } }
+      ]
+    },
+    {
+      "linkId": "q5-home-activities",
+      "text": "How limited are you in doing activities at home?",
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button"
+              }
+            ]
+          }
+        }
+      ],
+      "answerOption": [
+        { "valueCoding": { "code": "0", "display": "Never" } },
+        { "valueCoding": { "code": "1", "display": "Slightly limited" } },
+        { "valueCoding": { "code": "2", "display": "Somewhat limited" } },
+        { "valueCoding": { "code": "3", "display": "Quite limited" } },
+        { "valueCoding": { "code": "4", "display": "Very limited" } }
+      ]
+    },
+    {
+      "linkId": "q6-lung-condition",
+      "text": "How confident do you feel leaving your home despite your lung condition?",
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button"
+              }
+            ]
+          }
+        }
+      ],
+      "answerOption": [
+        { "valueCoding": { "code": "0", "display": "Very" } },
+        { "valueCoding": { "code": "1", "display": "Quite" } },
+        { "valueCoding": { "code": "2", "display": "Moderately" } },
+        { "valueCoding": { "code": "3", "display": "Slightly" } },
+        { "valueCoding": { "code": "4", "display": "Not at all" } }
+      ]
+    },
+    {
+      "linkId": "q7-sleep",
+      "text": "How often do you experience a lack of sleep due to your condition?",
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button"
+              }
+            ]
+          }
+        }
+      ],
+      "answerOption": [
+        { "valueCoding": { "code": "0", "display": "Never" } },
+        { "valueCoding": { "code": "1", "display": "Rarely" } },
+        { "valueCoding": { "code": "2", "display": "Sometimes" } },
+        { "valueCoding": { "code": "3", "display": "Frequently" } },
+        { "valueCoding": { "code": "4", "display": "All the time" } }
+      ]
+    },
+    {
+      "linkId": "q8-energy",
+      "text": "How often do you feel low in energy?",
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button"
+              }
+            ]
+          }
+        }
+      ],
+      "answerOption": [
+        { "valueCoding": { "code": "0", "display": "Never" } },
+        { "valueCoding": { "code": "1", "display": "Rarely" } },
+        { "valueCoding": { "code": "2", "display": "Sometimes" } },
+        { "valueCoding": { "code": "3", "display": "Frequently" } },
+        { "valueCoding": { "code": "4", "display": "All the time" } }
+      ]
+    }
+  ]
+}

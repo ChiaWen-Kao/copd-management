@@ -1,0 +1,218 @@
+:root {
+  --main-green:#6F7F6B;
+  --lighter-green: #B5D5AE;
+  --lightest-green:#E8F6E5;
+  --darker-green: #4B6345;
+  --main-text:#282828;
+  --white: #fff;
+}
+
+body {
+  margin: 0 !important;
+  font-family: "Inter", sans-serif;
+  color: #282828;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  max-width: 100% !important;
+  margin: 0;
+  padding: 0;
+}
+
+.sideMenu-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 24px !important;
+  box-shadow: 1px 0px 20px #e8e8e8;
+  height: 100vh;
+  position: relative;
+}
+
+.topMenu-container {
+  padding: 10px 20px;
+  box-shadow: 1px 0px 20px #e8e8e8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 83vw;
+}
+
+.content-container {
+  height: calc(100vh - 100px);
+  padding: 30px 20px;
+  overflow-y: scroll;
+}
+
+.topMenu-container p {
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.topLeft-menu {
+  width: 60%;
+}
+
+.topRight-menu {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end; 
+}
+
+img {
+  display: flex !important;
+  max-width: fit-content !important;
+}
+
+/* application name */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.title {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0 5px !important;
+}
+
+/* user profile */
+.userProfile {
+  width: 80%;
+  align-self: center;
+  display: flex;
+  margin-top: 30px;
+  bottom: 30px;
+  position: absolute;
+  border-radius: 10px;
+  border: 1px solid #858585;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.userProfile img {
+  width: 40px;
+  height: 40px;
+}
+
+.role {
+  color: #858585;
+  font-size: 12px;
+}
+
+/* Sub Title */
+.subTitle {
+  color: #858585;
+  font-size: 12px;
+  margin-top: 30px !important;
+  margin-left: 15px;
+}
+
+/* Sub Menu */
+.subMenu {
+  font-size: 14px;
+  padding-left: 10px !important;
+  padding-top: 20px !important;
+  align-items: center;
+}
+
+.icon {
+  padding-right: 0px !important;
+}
+
+.menuIcon {
+  width: 26px;
+  height: 26px;
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Side Menu Responsive */
+@media only screen and (max-width: 1300px) {
+
+  /* Side Menu */
+  .responsive-side-text, .title, .patientName {
+    font-size: 12px;
+  }
+
+  .title {
+    padding: 0 15px !important;
+  }
+  .col-2 {
+    width: 15vw;
+  }
+  .topMenu-container {
+    min-width: 83vw;
+  }
+  .subTitle {
+    margin-left: 12px;
+  }
+
+}
+
+@media only screen and (max-width: 1100px) {
+   
+  /* Side Menu */
+  .responsive-side-text, .title, .patientName, .role {
+    display: none;
+  }
+  .col-2 {
+    width: 10vw;
+  }
+  .topMenu-container {
+    min-width: 88vw;
+  }
+
+  .subTitle {
+    margin-left: 0;
+  }
+
+  .subMenu.row {
+    padding-left: 5px !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  
+  /* Side Menu */
+  .col-2 {
+    min-width: 12vw;
+  }
+
+  .topMenu-container {
+    min-width: 85vw;
+  }
+}
+
+@media only screen and (max-width: 896px) {
+  
+  .topLeft-menu p {
+    font-size: 1.5rem;
+  }
+  .topMenu-container {
+    min-width: 86vw;
+  }
+}
+
+.obs-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}

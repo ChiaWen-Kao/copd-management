@@ -1,0 +1,13 @@
+.accordion-button:not(.collapsed) {
+  background-color: #6F7F6B !important;
+  color: white;
+  font-weight: 700;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(https://img.icons8.com/ios-filled/50/FFFFFF/expand-arrow--v1.png) !important;
+}
+
+.alert {
+  margin-top: 20px;
+}
